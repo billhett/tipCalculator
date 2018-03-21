@@ -43,14 +43,21 @@
             </objects>
             <point key="canvasLocation" x="220" y="344.5"/>
         </scene>
-        <!--resultsController-->
+        <!--ResultsController-->
         <scene sceneID="110-82-tZe">
             <objects>
-                <controller identifier="resultsController" id="thi-0B-bv0">
-                    <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                <controller identifier="ResultsController" id="thi-0B-bv0" customClass="ResultsController" customModule="tipCalculator_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Cost of Meal:" id="OM1-II-bgj"/>
+                        <label width="1" alignment="left" text="$25" textAlignment="right" id="0fE-sw-yUc"/>
+                        <label alignment="left" text="20% Tip:" id="UM6-j7-Ipv"/>
+                        <label width="1" alignment="left" text="$5" textAlignment="right" id="E4g-4t-Tl6"/>
+                        <label height="20" alignment="left" text="Total:" id="h8V-6o-hpf"/>
+                        <label width="1" alignment="left" text="Label" textAlignment="right" id="Mgf-Yv-ekg"/>
+                    </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="467" y="342"/>
+            <point key="canvasLocation" x="466.41025641025647" y="341.30769230769232"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
