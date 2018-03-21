@@ -21,9 +21,21 @@
                         <label alignment="left" text="Tip:" id="DpX-0E-d8w"/>
                         <group width="1" alignment="left" id="3D0-C2-ccf">
                             <items>
-                                <button width="0.33333333300000001" alignment="left" title="10%" id="tvD-B7-TjJ"/>
-                                <button width="0.33333332999999998" alignment="left" title="15%" id="0sj-Xl-di8"/>
-                                <button width="0.33333299999999999" alignment="left" title="20%" id="nvv-MC-Qx6"/>
+                                <button width="0.33333333300000001" alignment="left" title="10%" id="tvD-B7-TjJ">
+                                    <connections>
+                                        <action selector="tenTapped" destination="AgC-eL-Hgc" id="4QA-gJ-scr"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33333332999999998" alignment="left" title="15%" id="0sj-Xl-di8">
+                                    <connections>
+                                        <action selector="fifteenTapped" destination="AgC-eL-Hgc" id="xbH-AB-s3x"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33333299999999999" alignment="left" title="20%" id="nvv-MC-Qx6">
+                                    <connections>
+                                        <action selector="twentyTapped" destination="AgC-eL-Hgc" id="UM4-WV-6Yo"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                     </items>
@@ -31,10 +43,10 @@
             </objects>
             <point key="canvasLocation" x="220" y="344.5"/>
         </scene>
-        <!--Interface Controller-->
+        <!--resultsController-->
         <scene sceneID="110-82-tZe">
             <objects>
-                <controller id="thi-0B-bv0">
+                <controller identifier="resultsController" id="thi-0B-bv0">
                     <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                 </controller>
             </objects>

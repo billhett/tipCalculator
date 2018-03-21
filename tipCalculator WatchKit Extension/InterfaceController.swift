@@ -28,4 +28,17 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+    @IBAction func tenTapped() {
+        print("ten tapped")
+        self.pushController(withName: "resultsController", context: nil)
+    }
+    @IBAction func fifteenTapped() {
+        print("fifteen tapped")
+        self.pushController(withName: "resultsController", context: nil)
+    }
+    
+    @IBAction func twentyTapped() {
+        print("twenty tapped")
+        self.pushController(withName: "resultsController", context: nil)
+    }
 }
